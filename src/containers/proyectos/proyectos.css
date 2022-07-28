@@ -1,0 +1,26 @@
+.Proyectos {
+    padding-block: 4rem;
+}
+
+.Proyectos-container {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto;
+
+    justify-content: space-between;
+}
+
+.Proyectos-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    padding-block: 3rem;
+}
+
+.Proyectos-description {
+    color: var(--color-text);
+    font-family: var(--font-body);
+
+    text-align: justify;
+}

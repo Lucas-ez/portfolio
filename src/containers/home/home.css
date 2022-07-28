@@ -1,0 +1,47 @@
+.Home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+
+    padding-block: 6rem;
+}
+
+.home_text-section {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.4rem;
+}
+
+.home_img-section {
+    width: 30%;
+}
+
+.home_title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--color-text);
+
+    font-family: var(--font-title);
+}
+
+.home_subtitle {
+    font-size: 1.5rem;
+    color: var(--color-decoration);
+
+    font-family: var(--font-title);
+}
+
+.home_description {
+    font-size: 1.2rem;
+    color: var(--color-text);
+
+    font-family: var(--font-body);
+}
+
+.home_img-section img {
+    width: 100%;
+}
