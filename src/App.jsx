@@ -1,6 +1,6 @@
 import './App.css';
 
-import { Footer, Home, Header, Proyectos, Tecnologias } from './containers';
+import { Footer, Home, Header, Proyectos, Tecnologias, Redes } from './containers';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Home/>
       <Proyectos/>
       <Tecnologias/>
+      <Redes/>
       <Footer/>
     </div>
   );

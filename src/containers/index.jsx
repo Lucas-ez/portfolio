@@ -1,4 +1,5 @@
 export { default as Footer } from './footer/Footer'
+export { default as Redes } from './redes/Redes'
 export { default as Home } from './home/Home'
 export { default as Header } from './header/Header'
 export { default as Proyectos } from './proyectos/Proyectos'

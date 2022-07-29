@@ -11,7 +11,7 @@
 .navbar a {
     font-family: var(--font-body);
     color: var(--color-decoration);
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: bold;
 
     transition: transform 0.2s linear;
@@ -19,8 +19,4 @@
 
 .navbar a:hover {
     transform: scale(1.05);
-}
-
-.house-icon {
-    font-size: 36px;
 }
