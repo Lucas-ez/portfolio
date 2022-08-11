@@ -5,7 +5,7 @@ import { Title } from '../../components'
 
 function Redes() {
   return (
-    <div className='Redes'>
+    <div className='Redes' id='redes'>
         <Title text={"Redes"}/>
     </div>
   )

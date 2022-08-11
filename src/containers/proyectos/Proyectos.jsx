@@ -41,7 +41,7 @@ const proyectos = [
 
 function Proyectos() {
   return (
-    <div className='Proyectos'>
+    <div className='Proyectos' id='proyectos'>
       <Title text={"Proyectos"}/>
       <div className='Proyectos-container'>
         {proyectos.map(proyecto => (

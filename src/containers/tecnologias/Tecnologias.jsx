@@ -15,7 +15,7 @@ const tecnologias = [imgHTML, imgCSS, imgJS,
 
 function Tecnologias() {
   return (
-    <div className='Tecnologias'>
+    <div className='Tecnologias' id='tecnologias'>
       <Title text={"Tecnologías"}/>
       <div className='Tecnologias-container'>
         {tecnologias.map((tecnologia, index) => (
