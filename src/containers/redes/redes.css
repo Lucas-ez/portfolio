@@ -1,6 +1,48 @@
 .Redes {
     padding-block: 4rem;
     margin-block: 2rem;
-    /* border: 1px solid #ccc; */
-    height: 400px;
+}
+
+.Redes .Title {
+    margin-bottom: 3rem;
+}
+
+.Redes_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+
+    padding: 2rem;
+    border: 2px solid var(--color-decoration);
+    border-radius: 2rem;
+    padding: 2rem;
+    background-color: rgb(49, 49, 49);
+}
+
+.Redes_icon {
+    width: 5rem;
+    height: 5rem;
+    color: var(--color-decoration);
+}
+
+@media (max-width: 630px) {
+
+    .Redes_icon {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+@media (max-width: 485px) {
+
+    .Redes_icon {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .Redes_container a:nth-child(5) {
+        display: none;
+    }
+
 }

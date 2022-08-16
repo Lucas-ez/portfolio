@@ -5,3 +5,9 @@
 
     font-family: var(--font-title);
 }
+
+@media (max-width: 768px) {
+    .Title {
+        text-align: center;
+    }
+}

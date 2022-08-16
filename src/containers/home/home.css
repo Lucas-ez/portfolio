@@ -45,3 +45,23 @@
 .home_img-section img {
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .Home {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .home_img-section {
+        width: 55%;
+    }
+
+    .home_text-section {
+        width: 100%;
+        align-items: center;
+    }
+
+    .home_description {
+        text-align: center;
+    }
+}
