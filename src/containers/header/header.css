@@ -1,0 +1,21 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 2rem;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+
+@media (max-width: 468px) {
+
+    .Header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}

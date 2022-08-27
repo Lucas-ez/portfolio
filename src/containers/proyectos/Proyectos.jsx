@@ -14,7 +14,7 @@ const proyectos = [
     img: img1,
     title: 'Internet of Things',
     description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    link: '/',
+    link: 'https://lucas-ez.github.io/iot-frontend/',
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const proyectos = [
   {
     id: 3,
     img: img3,
-    title: 'To-Do List',
+    title: 'ToDo List',
     description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     link: 'https://lucas-ez.github.io/todo-app/',
   },
@@ -48,7 +48,7 @@ function Proyectos() {
           <div className='Proyectos-item' key={proyecto.id}>
             <img src={proyecto.img} alt={proyecto.title} />
             <a href={proyecto.link} target="_blank">
-              <Subtitle text={proyecto.title}/>
+              <Subtitle text={'< ' + proyecto.title + ' />'}/>
             </a>
             <p className='Proyectos-description'>{proyecto.description}</p>
           </div>
