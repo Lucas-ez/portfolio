@@ -1,5 +1,6 @@
 .Home {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     gap: 10%;
@@ -44,6 +45,7 @@
 
 .home_img-section img {
     width: 100%;
+    border-radius: 0.4rem;
 }
 
 @media (max-width: 768px) {
