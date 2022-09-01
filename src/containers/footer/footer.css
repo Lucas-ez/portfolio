@@ -23,7 +23,9 @@
 
 @media (max-width: 768px) {
   .Footer {
-    padding: 1rem;
+    padding-inline: 1rem;
+    padding-block: 2rem;
+
   }
   
 }

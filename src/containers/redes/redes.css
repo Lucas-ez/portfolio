@@ -66,6 +66,10 @@
 
 @media (max-width: 768px) {
 
+  .Redes {
+    padding-block: 2rem;
+  }
+
   .Redes_container {
     flex-direction: column;
   }

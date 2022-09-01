@@ -5,7 +5,8 @@
     align-items: center;
     gap: 10%;
 
-    padding-block: 6rem;
+    padding-block: 4rem;
+    margin-block: 2rem;
 }
 
 .home_text-section {
@@ -52,6 +53,7 @@
     .Home {
         flex-direction: column-reverse;
         gap: 2rem;
+        padding-block: 2rem;
     }
 
     .home_img-section {
