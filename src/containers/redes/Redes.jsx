@@ -11,21 +11,35 @@ function Redes() {
     <div className='Redes' id='redes'>
         <Title text={"Redes"}/>
         <div className='Redes_container'>
-          <a href="">
-            <HiMail className='Redes_icon'/>
-          </a>
-          <a href="">
-            <FaGithub className='Redes_icon'/>
-          </a>
-          <a href="">
-            <BsLinkedin className='Redes_icon'/>
-          </a>
-          <a href="">
-            <BsTelegram className='Redes_icon'/>
-          </a>
-          <a href="">
-            <BsInstagram className='Redes_icon'/>
-          </a>
+
+          <div className='Redes_container_left'>
+            <div className='Redes_name'>
+              Lucas Brest
+            </div>
+            <div className='Redes_mail'>
+              <HiMail className='Redes_mail-icon'/>
+              <span>lbrest07@gmail.com</span>
+            </div>
+            <div className='Redes_location'>
+              Merlo, Buenos Aires - Argentina
+            </div>
+
+          </div>
+          <div className='Redes_container_right'>
+            <a href="https://github.com/Lucas-ez" target={"_blank"} rel="noopener noreferrer">
+              <FaGithub className='Redes_icon'/>
+            </a>
+            <a href="https://www.linkedin.com/in/lucasbrest-fullstack/" target={"_blank"} rel="noopener noreferrer">
+              <BsLinkedin className='Redes_icon'/>
+            </a>
+            <a href="https://t.me/ez_lz" target={"_blank"} rel="noopener noreferrer">
+              <BsTelegram className='Redes_icon'/>
+            </a>
+            <a href="https://www.instagram.com/lucasbrest_/" target={"_blank"} rel="noopener noreferrer">
+              <BsInstagram className='Redes_icon'/>
+            </a>
+          </div>
+
         </div>
     </div>
   )

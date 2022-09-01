@@ -40,10 +40,11 @@
 
 }
 
-@media (max-width: 468px) {
-
-    .Tecnologias-item:nth-child(6) {
-        display: none;
-    }
-
+@media (max-width: 475px) {
+  .Tecnologias-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    justify-content: space-between;
+  }
 }
