@@ -61,7 +61,7 @@
     width: 5rem;
     height: 5rem;
     margin: 2rem;
-    /* color: var(--color-decoration); */
+    color: var(--color-decoration);
 }
 
 @media (max-width: 768px) {

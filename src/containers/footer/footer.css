@@ -3,5 +3,27 @@
   color: var(--color-text);
   font-family: var(--font-body);
   padding: 3rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Footer_text {
+  width: 90%;
+}
+
+.Footer_button {
+  width: 4rem;
+  height: 4rem;
+  color: var(--color-text);
+}
+
+@media (max-width: 768px) {
+  .Footer {
+    padding: 1rem;
+  }
+  
 }
