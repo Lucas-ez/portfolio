@@ -3,7 +3,7 @@ import './proyectos.css'
 
 import img1 from '../../img/proyectos/img-iot.png'
 import img2 from '../../img/proyectos/img-sudoku.png'
-import img3 from '../../img/proyectos/img-todo.png'
+import img3 from '../../img/proyectos/img-ecommerce.png'
 import img4 from '../../img/proyectos/img-weather.png'
 
 import { Title, Subtitle } from '../../components'
@@ -26,9 +26,9 @@ const proyectos = [
   {
     id: 3,
     img: img3,
-    title: 'ToDo List',
-    description: 'Lista de tareas dinámica hecha con ReactJS que permite agregar, eliminar o tachar las tareas.',
-    link: 'https://lucas-ez.github.io/todo-app/',
+    title: 'e-commerce',
+    description: 'Web hecha en ReactJS que se comunica con una api de productos genéricos, con un buscador que permite filtrarlos por nombre y la funcionalidad de agregar y quitar productos a un carrito',
+    link: 'https://lucas-ez.github.io/e-commerce/',
   },
   {
     id: 4,
