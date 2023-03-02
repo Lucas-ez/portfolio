@@ -3,18 +3,18 @@ import './proyectos.css'
 
 import img1 from '../../img/proyectos/img-iot.png'
 import img2 from '../../img/proyectos/img-sudoku.png'
-import img3 from '../../img/proyectos/img-ecommerce.png'
-import img4 from '../../img/proyectos/img-weather.png'
+import img3 from '../../img/proyectos/img-store.jpg'
+import img4 from '../../img/proyectos/img-crud.jpg'
 
 import { Title, Subtitle } from '../../components'
 
 const proyectos = [
   {
-    id: 1,
-    img: img1,
-    title: 'Internet of Things',
-    description: 'Página informativa acerca de internet of things con el frontend hecho ReactJS que se comunica con una API para obtener las novedades y los dispositivos, y un backend hecho en NodeJS que incluye una API que obtiene los elementos de una base de datos SQL para compartirlos con el frontend y una interfaz para un administrador que permite agregar, modificar o eliminar novedades.',
-    link: 'https://lucas-ez.github.io/iot-frontend/',
+    id: 3,
+    img: img3,
+    title: 'ReduxStore',
+    description: 'Web hecha en ReactJS que se comunica con una api de productos genéricos que permite agregar y quitar productos a un carrito usando Redux para los componentes',
+    link: 'https://redux-store-eight.vercel.app/',
   },
   {
     id: 2,
@@ -24,18 +24,18 @@ const proyectos = [
     link: 'https://lucas-ez.github.io/sudoku/',
   },
   {
-    id: 3,
-    img: img3,
-    title: 'e-commerce',
-    description: 'Web hecha en ReactJS que se comunica con una api de productos genéricos, con un buscador que permite filtrarlos por nombre y la funcionalidad de agregar y quitar productos a un carrito',
-    link: 'https://lucas-ez.github.io/e-commerce/',
+    id: 1,
+    img: img1,
+    title: 'Internet of Things',
+    description: 'Página informativa acerca de internet of things con el frontend hecho ReactJS que se comunica con una API para obtener las novedades y los dispositivos, y un backend hecho en NodeJS que incluye una API que obtiene los elementos de una base de datos SQL para compartirlos con el frontend y una interfaz para un administrador que permite agregar, modificar o eliminar novedades.',
+    link: 'https://lucas-ez.github.io/iot-frontend/',
   },
   {
     id: 4,
     img: img4,
-    title: 'Weather App',
-    description: 'Aplicación web que muestra datos acerca del clima de la ciudad ingresada en el buscador, se comunica con un API para obtener información sobre la temperatura y el clima del lugar indicado.',
-    link: 'https://lucas-ez.github.io/weather/',
+    title: 'Crud App',
+    description: 'Aplicación web para ingresar o eliminar registros de una tabla almacenada en el localstoragejpg.',
+    link: 'https://lucas-ez.github.io/crud-app/',
   },
 ]
 
