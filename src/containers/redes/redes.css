@@ -85,6 +85,15 @@
 }
 
 @media (max-width: 475px) {
+
+  
+  .Redes_mail {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
   .Redes_container {
     border: none;
     background-color: rgba(0, 0, 0, 0);
@@ -96,5 +105,10 @@
 
   .Redes_name {
     display: none;
+  }
+
+  .Redes_icon {
+      width: 4rem;
+      height: 4rem;
   }
 }

@@ -22,7 +22,8 @@
 
 @media (max-width: 768px) {
     .navbar {
-        justify-content: center;
+      gap: 1rem;
+      padding: 1.4rem;
     }
 
 }

@@ -18,6 +18,18 @@
     padding-block: 3rem;
 }
 
+.Proyectos-item-img {
+  height: 265px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Proyectos-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .Proyectos-description {
     color: var(--color-text);
     font-family: var(--font-body);
@@ -30,4 +42,15 @@
         display: flex;
         flex-direction: column;
     }
+}
+
+@media (max-width: 480px) {
+  .Proyectos-container {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .Proyectos-item-img {
+    height: 100%;
+  }
 }

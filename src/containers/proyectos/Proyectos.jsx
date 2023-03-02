@@ -46,7 +46,9 @@ function Proyectos() {
       <div className='Proyectos-container'>
         {proyectos.map(proyecto => (
           <div className='Proyectos-item' key={proyecto.id}>
-            <img src={proyecto.img} alt={proyecto.title} />
+            <div className='Proyectos-item-img'>
+              <img src={proyecto.img} alt={proyecto.title} />
+            </div>
             <a href={proyecto.link} target="_blank" rel="noopener noreferrer">
               <Subtitle text={'< ' + proyecto.title + ' />'}/>
             </a>
