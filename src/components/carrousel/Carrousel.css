@@ -1,0 +1,107 @@
+.carrousel {
+  min-height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  /* border: 1px solid red; */
+}
+
+.carrousel .item {
+  min-height: 612px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+
+  /* border: 1px solid green; */
+}
+
+.carrousel .item .item-img {
+  max-width: 800px;
+  max-height: 400px;
+  height: 100%;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrousel .item .item-img img {
+  height: 100%;
+  max-height: 400px;
+  max-width: 100%;
+}
+
+.carrousel .item-title {
+  font-size: 1.5rem;
+  color: var(--color-decoration);
+
+  font-family: var(--font-title);
+}
+
+.carrousel .item-description {
+  color: var(--color-text);
+  font-family: var(--font-body);
+  text-align: justify;
+}
+
+.carrousel .slide {
+  display: none;
+}
+
+.carrousel .active {
+  display: inline;
+
+  animation-duration: 1.6s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.carrousel .carrousel-btn {
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+
+  display: inline-block;
+  border-radius: 6px;
+  transition: all 1s ease;
+  font-size: 3rem;
+  padding: .8rem;
+
+  height: 400px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+@media (max-width : 580px) {
+
+  .carrousel .item {
+
+    padding: .8rem;
+  }
+
+  .carrousel .carrousel-btn {
+    padding: .3rem;
+    font-size: 1.4rem;
+  }
+}
+
