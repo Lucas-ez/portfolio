@@ -21,8 +21,8 @@ const proyectos = [
     id: 2,
     img: img2,
     title: 'Sudoku',
-    description: 'Aplicación web responsive de un juego de sudoku hecho en ReactJS con el uso de hooks useState y useEffect.',
-    link: 'https://lucas-ez.github.io/sudoku/',
+    description: 'Aplicación web responsive de un juego de sudoku hecho en ReactJS con Redux-toolkit, usando hooks como useState, useEffect y useRef. Además de Sass para los estilos',
+    link: 'https://lb-sudoku.vercel.app/',
   },
   {
     id: 1,
