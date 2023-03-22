@@ -8,10 +8,13 @@ import imgJS from '../../img/tecnologias/js.png'
 import imgReact from '../../img/tecnologias/react.png'
 import imgNode from '../../img/tecnologias/node.png'
 import imgGit from '../../img/tecnologias/git.png'
-import imgSQL from '../../img/tecnologias/sql.png'
+import imgRedux from '../../img/tecnologias/redux.png'
+const imgSQL = 'https://icongr.am/devicon/mysql-original.svg?size=128&color=currentColor'
+const imgSass = 'https://icongr.am/devicon/sass-original.svg?size=128&color=currentColor'
+const imgExpress = 'https://icongr.am/devicon/express-original-wordmark.svg?size=128&color=currentColor'
 
 const tecnologias = [imgHTML, imgCSS, imgJS, 
-                imgReact, imgNode, imgGit, imgSQL]
+                imgReact, imgNode, imgGit, imgSQL, imgSass, imgExpress,imgRedux]
 
 function Tecnologias() {
   return (
